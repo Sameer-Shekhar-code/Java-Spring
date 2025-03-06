@@ -7,6 +7,10 @@ public class Car {
         this.engine = engine;
     }
 
+    public Car(IEngine engine) {
+        this.engine = engine;
+    }
+
     void drive()
     {
         int start = engine.start();
